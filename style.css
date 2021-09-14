@@ -14,14 +14,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/*****************
-Header
-******************/
+/***** Debug *****/
 
 .debug .site_header {
     background-color: cornflowerblue;
     height: 100px;
 }
+
+.debug .site_section1 {
+    width: 100%;
+    background-color: #b4d0e7;
+    height: 600px;
+}
+
+/*****************
+Header
+******************/
 
 .site_header {
     position: relative;
@@ -31,6 +39,7 @@ Header
     position: fixed;
     width: 100%;
     padding: 2rem;
+    background-color: white;
 }
 
 .head1 {
@@ -70,4 +79,51 @@ Header
 
 a {
     text-decoration: none;
+}
+
+/*******************
+Main
+********************/
+
+.site_section1 {
+    width: 100%;
+    background-color: #b4d0e7;
+    margin-top: 5rem;
+    padding: 3rem 3rem 3rem 5rem;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    padding-top: 3rem;
+    width: 30%;
+}
+
+.btn_sec1 {
+    margin-top: 3rem;
+    color: white;
+    background-color: #0061ff;
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+
+span {
+    padding-top: 1rem;
+    display: inline-block;
+}
+
+i {
+    padding-top: 3rem;
+    font-size: 50px;
+}
+
+.img_sec1 {
+    height: 500px;
+    position: absolute;
+    top: 357px;
+    left: 485px;
+    float: right;
 }
