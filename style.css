@@ -3,3 +3,71 @@
     margin: 0;
     padding: 0;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*****************
+Header
+******************/
+
+.debug .site_header {
+    background-color: cornflowerblue;
+    height: 100px;
+}
+
+.site_header {
+    position: relative;
+}
+
+.site_nav {
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+}
+
+.head1 {
+    float: left;
+    width: 50%;
+    padding-left: 5rem;
+}
+
+.logo {
+    vertical-align: sub;
+}
+
+.link_Sx {
+    padding: 1rem;
+    color: black;
+}
+
+.head2 {
+    float: right;
+    width: 50%;
+    padding-left: 5rem;
+}
+
+.link_Dx {
+    vertical-align: sub;
+    padding: 1rem;
+    color: black;
+}
+
+.bottone {
+    color: white;
+    background-color: #0061ff;
+    margin-left: 1rem;
+    padding: .5rem 1rem;
+    vertical-align: sub;
+}
+
+a {
+    text-decoration: none;
+}
