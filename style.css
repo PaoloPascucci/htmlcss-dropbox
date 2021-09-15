@@ -29,7 +29,7 @@ body {
 
 div[class^="col_"] {
     float: left;
-    padding: 0 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-lg {
@@ -130,7 +130,7 @@ h1 {
     font-size: 75px;
 }
 
-p {
+.articolo {
     padding-top: 3rem;
     width: 30%;
 }
@@ -143,7 +143,7 @@ p {
     display: inline-block;
 }
 
-span {
+.Annulla {
     padding-top: 1rem;
     display: inline-block;
 }
@@ -170,14 +170,12 @@ i {
 }
 
 .testo {
-    padding-top: 5rem;
+    padding: 5rem 0 2rem 0;
 }
 
 .opzione, .opzione1 {
-    height: 20%;
     border: 1px solid lightgray;
     text-align: center;
-    vertical-align: top;
 }
 
 .title {
@@ -187,9 +185,10 @@ i {
 .btn_1 {
     border-radius: 50%;
     border: solid #0061ff;
-    border-width: 6px;
+    border-width: 5px;
     background-color: white;
     padding: 0px 10px;
+    margin-right: 2px;
 }
 
 .btn_2 {
@@ -198,13 +197,94 @@ i {
     border-width: 1px 1px;
     background-color: white;
     padding: 0px 10px;
+    margin-right: 2px;
 }
 
-span {
+.Annulla {
     padding-left: .5rem;
     padding-bottom: 2rem;
 }
 
-.fa-user, .fa-building {
+.content, .content1 {
+    border: 1px solid lightgray;
+    padding: 1rem;
+}
+
+.fa-user, .fa-building, .fa-folder, .fa-pencil-alt, .fa-check, .fa-smile, .fa-user-plus {
     font-size: 15px;
+    padding-right: 5px;
+}
+
+.Prima, .Seconda {
+    list-style: none;
+    padding-bottom: 5rem;
+}
+
+h3, .bold {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.category {
+    color: gray;
+    padding-left: 10px;
+    font-size: smaller;
+}
+
+.fe {
+    font-size: 14px;
+}
+
+.d {
+    text-align: center;
+}
+
+.f {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.btn_sec2 {
+    margin-top: 3rem;
+    color: white;
+    background-color: #0061ff;
+    padding: .5rem 2rem;
+    display: inline-block;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+span {
+    font-size: 15px;
+}
+
+.articolo2 {
+    padding: 10px;
+}
+
+.contenitore2 {
+    margin: 3rem 0rem;
+}
+
+.contenitore2 h2 {
+    float: left;
+    padding-left: 10px;
+}
+
+.contenitore2 a {
+    float: right;
+}
+
+.linea2 {
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.btn2_sec2 {
+    color: white;
+    background-color: #0061ff;
+    padding: .5rem 2rem;
+    display: inline-block;
 }
