@@ -210,7 +210,7 @@ i {
     padding: 1rem;
 }
 
-.fa-user, .fa-building, .fa-folder, .fa-pencil-alt, .fa-check, .fa-smile, .fa-user-plus {
+.fa-user, .fa-building, .fa-folder, .fa-pencil-alt, .fa-check, .fa-smile, .fa-user-plus, .fa-globe-americas, .fa-sort-up {
     font-size: 15px;
     padding-right: 5px;
 }
@@ -306,4 +306,64 @@ span {
     border: gray solid 2px;
     padding: .5rem 2rem;
     display: inline-block;
+}
+
+/*************************/
+
+/***************
+*Footer
+****************/
+
+.site_footer {
+    width: 100%;
+    background-color: black;
+    padding: 0 5rem 0 5rem;
+    float: left;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    float: left;
+    width: 20%;
+    padding-top: 4rem;
+}
+
+.nessuna {
+    list-style: none;
+}
+
+.nessuna {
+    font-size: 15px;
+    padding: 1rem;
+}
+
+.site_footer ul {
+    color: white;
+    line-height: 30px;
+}
+
+.primo {
+    font-weight: bold;
+}
+
+.box5 {
+    padding-bottom: 8rem;
+}
+
+.linea {
+    width: 115px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 0.1px solid lightgray;
+}
+
+.due {
+    float: left;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    color: lightgray;
+}
+
+.fa-sort-up {
+    padding-left: .1rem;
+    vertical-align: sub;
 }
