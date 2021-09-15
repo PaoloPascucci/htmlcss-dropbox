@@ -43,11 +43,11 @@ div[class^="col_"] {
 }
 
 .col_30 {
-    width: 30%;
+    width: 40%;
 }
 
 .col_70 {
-    width: 70%;
+    width: 60%;
 }
 
 .col_33 {
@@ -285,6 +285,25 @@ span {
 .btn2_sec2 {
     color: white;
     background-color: #0061ff;
+    padding: .5rem 2rem;
+    display: inline-block;
+}
+
+.ragazzi {
+    padding: 0;
+    width: 80%;
+    float: right;
+    margin-right: 4.8rem;
+}
+
+.title2, .articolo3 {
+    padding: 1.5rem 0;
+    line-height: 30px;
+}
+
+.btn3_sec2 {
+    color: black;
+    border: gray solid 2px;
     padding: .5rem 2rem;
     display: inline-block;
 }
