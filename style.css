@@ -27,6 +27,37 @@ body {
     height: 600px;
 }
 
+div[class^="col_"] {
+    float: left;
+    padding: 0 1rem;
+}
+
+.container-lg {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.col_30 {
+    width: 30%;
+}
+
+.col_70 {
+    width: 70%;
+}
+
+.col_33 {
+    width: 33.33%;
+}
+
+.row {
+    margin: 0 -1rem;
+}
+
 /*****************
 Header
 ******************/
@@ -85,11 +116,13 @@ a {
 Main
 ********************/
 
+/*Section 1*/
+
 .site_section1 {
     width: 100%;
     background-color: #b4d0e7;
     margin-top: 5rem;
-    padding: 3rem 3rem 3rem 5rem;
+    padding: 0rem 3rem 3rem 5rem;
     word-wrap: break-word;
 }
 
@@ -126,4 +159,52 @@ i {
     top: 357px;
     left: 485px;
     float: right;
+}
+
+/******************/
+
+/*Section 2*/
+
+.container {
+    padding-top: 5rem;
+}
+
+.testo {
+    padding-top: 5rem;
+}
+
+.opzione, .opzione1 {
+    height: 20%;
+    border: 1px solid lightgray;
+    text-align: center;
+    vertical-align: top;
+}
+
+.title {
+    padding-bottom: 2rem;
+}
+
+.btn_1 {
+    border-radius: 50%;
+    border: solid #0061ff;
+    border-width: 6px;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+.btn_2 {
+    border-radius: 50%;
+    border: solid lightgray;
+    border-width: 1px 1px;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+span {
+    padding-left: .5rem;
+    padding-bottom: 2rem;
+}
+
+.fa-user, .fa-building {
+    font-size: 15px;
 }
