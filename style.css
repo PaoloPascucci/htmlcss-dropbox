@@ -367,3 +367,31 @@ span {
     padding-left: .1rem;
     vertical-align: sub;
 }
+
+.cont2 {
+    height: 500px;
+}
+
+.image {
+    padding: 5rem 0;
+}
+
+.cont3 {
+    margin-top: 3rem;
+}
+
+.par {
+    padding: 1rem 0;
+}
+
+.para {
+    width: 305px;
+}
+
+.cont3 h2 {
+    font-size: 40px;
+}
+
+.image>img, .image2>img {
+    width: 300px;
+}
