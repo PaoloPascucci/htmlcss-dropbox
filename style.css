@@ -69,6 +69,7 @@ Header
 
 .site_nav {
     position: fixed;
+    z-index: 5;
     width: 100%;
     padding: 2rem;
     background-color: white;
@@ -149,7 +150,7 @@ h1 {
     display: inline-block;
 }
 
-i {
+.user2, .fa-folder, .fa-smile, .fa-pencil-alt {
     padding-top: 3rem;
     font-size: 50px;
 }
@@ -204,6 +205,10 @@ i {
 .Annulla {
     padding-left: .5rem;
     padding-bottom: 2rem;
+}
+
+.content {
+    min-height: 910px;
 }
 
 .content, .content1 {
