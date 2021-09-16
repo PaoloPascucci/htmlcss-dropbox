@@ -367,16 +367,10 @@ span {
 .container5 {
     padding-top: 4rem;
     width: 100%;
-    float: left;
 }
 
 .parteDx, .parteSx {
-    width: 30%;
-    float: left;
-}
-
-.parteDx {
-    width: 35%;
+    width: 31%;
     float: left;
 }
 
@@ -395,9 +389,21 @@ span {
     border: 5px solid #d0e9cd;
 }
 
+.c_1 img {
+    margin: 4.5rem 0 0 2rem;
+    height: 50px;
+    filter: brightness(0) invert(1);
+}
+
 .c_2 {
     height: 200px;
     background-color: #61082b;
+}
+
+.c_2 img {
+    margin: 4rem 0 0 3rem;
+    height: 100px;
+    filter: brightness(0) invert(1);
 }
 
 .c_3 {
@@ -405,18 +411,39 @@ span {
     background-color: #0093ce;
 }
 
+.c_3 img {
+    margin: 5rem 0 0 2rem;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
 .c_4 {
     height: 200px;
     background-color: #ff1c1c;
 }
 
+.c_4 img {
+    margin: 4rem 0 0 3rem;
+    height: 60px;
+    filter: brightness(0) invert(1);
+}
+
 .parteCentrale {
     float: left;
-    width: 30%;
+    width: 33%;
+    margin: 2rem;
 }
 
 .parteCentrale img {
     height: 50px;
+}
+
+.parteCentrale p {
+    margin: 2rem 0;
+}
+
+.parteCentrale hr {
+    width: 20%;
 }
 
 .c5 {
@@ -432,9 +459,21 @@ span {
     background-color: #d5001f;
 }
 
+.c_6 img {
+    margin: 5rem 0 0 3rem;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
 .c_7 {
     height: 200px;
     background-color: #b4d0e7;
+}
+
+.c_7 img {
+    margin: 6rem 0 0 2rem;
+    height: 15px;
+    filter: brightness(0) invert(1);
 }
 
 .c_8 {
@@ -442,9 +481,52 @@ span {
     background-color: #0d2481;
 }
 
+.c_8 img {
+    margin: 4rem 0 0 3rem;
+    height: 60px;
+    filter: brightness(0) invert(1);
+}
+
 .c_9 {
     height: 200px;
     background-color: #ffd830;
+}
+
+.c_9 img {
+    margin: 4rem 0 0 3rem;
+    height: 70px;
+    filter: brightness(0) invert(1);
+}
+
+.contenitore6 {
+    width: 70%;
+    margin: auto;
+    height: 200px;
+}
+
+.contenitore6 h3 {
+    float: left;
+}
+
+.btn_sec3 {
+    color: black;
+    background-color: white;
+    float: right;
+    padding: .5rem 2rem;
+    margin: 5rem;
+}
+
+.full {
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.full h3 {
+    color: #61082b;
+    margin-top: 2rem;
+    font-size: 35px;
+    word-wrap: break-word;
+    width: 50%;
 }
 
 /*************************/
