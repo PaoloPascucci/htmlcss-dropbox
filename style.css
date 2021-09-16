@@ -211,7 +211,7 @@ i {
     padding: 1rem;
 }
 
-.fa-user, .fa-building, .fa-folder, .fa-pencil-alt, .fa-check, .fa-smile, .fa-user-plus, .fa-globe-americas, .fa-sort-up {
+.fa-user, .fa-building, .fa-folder, .fa-pencil-alt, .fa-check, .fa-smile, .fa-user-plus, .fa-globe-americas, .fa-sort-up, .fa-angle-down {
     font-size: 15px;
     padding-right: 5px;
 }
@@ -529,6 +529,29 @@ span {
     width: 50%;
 }
 
+.contenitore6 h4, .contenitore6 h5 {
+    margin-top: 2rem;
+}
+
+.contenitore6 i {
+    padding: 0;
+    float: right;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    padding-top: 3rem;
+    border-top: 1px solid lightgray;
+}
+
+.titler {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgray;
+}
+
 /*************************/
 
 /***************
@@ -540,6 +563,7 @@ span {
     background-color: black;
     padding: 0 5rem 0 5rem;
     float: left;
+    margin-top: 10rem;
 }
 
 .box1, .box2, .box3, .box4, .box5 {
