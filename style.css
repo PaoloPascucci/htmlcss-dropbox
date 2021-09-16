@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
 }
 
 /***** Debug *****/
@@ -308,6 +309,144 @@ span {
     display: inline-block;
 }
 
+.cont2 {
+    height: 500px;
+}
+
+.image {
+    padding: 5rem 0;
+}
+
+.cont3 {
+    margin-top: 3rem;
+}
+
+.riga2 {
+    padding-left: 4rem;
+}
+
+.image, .image2 {
+    padding-left: 3rem;
+}
+
+.par {
+    padding: 1rem 0;
+}
+
+.para {
+    width: 305px;
+}
+
+.cont3 h2 {
+    font-size: 40px;
+}
+
+.image>img, .image2>img {
+    width: 300px;
+}
+
+/*************/
+
+/*Section 3*/
+
+.cont4 {
+    margin-top: 3rem;
+    padding-left: 4rem;
+}
+
+.cont4 h2 {
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.cont4 a {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.container5 {
+    padding-top: 4rem;
+    width: 100%;
+    float: left;
+}
+
+.parteDx, .parteSx {
+    width: 30%;
+    float: left;
+}
+
+.parteDx {
+    width: 35%;
+    float: left;
+}
+
+.parteDx img {
+    float: left;
+}
+
+.sopra, .sotto {
+    width: 50%;
+    float: left;
+}
+
+.c_1 {
+    height: 200px;
+    background-color: #a2d39b;
+    border: 5px solid #d0e9cd;
+}
+
+.c_2 {
+    height: 200px;
+    background-color: #61082b;
+}
+
+.c_3 {
+    height: 200px;
+    background-color: #0093ce;
+}
+
+.c_4 {
+    height: 200px;
+    background-color: #ff1c1c;
+}
+
+.parteCentrale {
+    float: left;
+    width: 30%;
+}
+
+.parteCentrale img {
+    height: 50px;
+}
+
+.c5 {
+    margin-bottom: 3rem;
+}
+
+.parteSx img {
+    height: 50px;
+}
+
+.c_6 {
+    height: 200px;
+    background-color: #d5001f;
+}
+
+.c_7 {
+    height: 200px;
+    background-color: #b4d0e7;
+}
+
+.c_8 {
+    height: 200px;
+    background-color: #0d2481;
+}
+
+.c_9 {
+    height: 200px;
+    background-color: #ffd830;
+}
+
 /*************************/
 
 /***************
@@ -366,40 +505,4 @@ span {
 .fa-sort-up {
     padding-left: .1rem;
     vertical-align: sub;
-}
-
-.cont2 {
-    height: 500px;
-}
-
-.image {
-    padding: 5rem 0;
-}
-
-.cont3 {
-    margin-top: 3rem;
-}
-
-.riga2 {
-    padding-left: 4rem;
-}
-
-.image, .image2 {
-    padding-left: 3rem;
-}
-
-.par {
-    padding: 1rem 0;
-}
-
-.para {
-    width: 305px;
-}
-
-.cont3 h2 {
-    font-size: 40px;
-}
-
-.image>img, .image2>img {
-    width: 300px;
 }
